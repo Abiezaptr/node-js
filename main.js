@@ -10,7 +10,7 @@ const server = http.createServer((request, response) => {
     if (method === "GET" && path === "/data") {
         // Mengirim respon "Hello World"
         response.writeHead(200, {'Content-Type': 'text/plain'});
-        response.end('Hello World\n');
+        response.end('Terimakasih telah comite data didalam repo github\n');
     } else {
         // Jika endpoint tidak sesuai
         response.writeHead(404, {'Content-Type': 'text/plain'});
